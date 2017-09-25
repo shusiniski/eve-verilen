@@ -1,0 +1,183 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(216,216,216); /*random*/
+}
+
+#header{
+  width: 100%;
+  height: 150px;
+
+}
+
+#logo{
+  height: 80%;
+  position: center;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+
+}
+
+#slider{
+  display: block;
+  width: 80%;
+  height: 400px;
+  position:relative;
+  background-color: rgb(5,74,124);
+  text-align: center;
+  margin-left: 250px;
+}
+
+#sl-img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ----- arrows-----*/
+
+#slider-arr{
+  width: 100%;
+  height: 50px;
+  margin:auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  /*this is going to center in the middle of the slider*/
+
+}
+
+#arr-left{
+  height: 100%;
+  left: 0;
+  transform: rotate(0deg);
+  position: absolute;
+  margin-left: 30px;
+  opacity: 0.5;
+
+}
+
+#arr-left:hover, #arr-right:hover{
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+#arr-right{
+  height: 100%;
+  transform: rotate(180deg);
+  right: 0;
+  position: absolute;
+  margin-right: 30px; 
+  opacity:0.5;
+
+}
+
+
+/*--------slider info-----*/
+
+#slider-info{
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+
+  top: 0;left: 0;
+  bottom: 0;right: 0;
+}
+
+.sl-info{
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+
+}
+.sl-info h1{
+  text-shadow: 4px 4px 1px black;
+  font-size: 80px;
+
+
+}
+
+.sl-info h3{
+  text-shadow: 3px 3px 1px black;
+  font-size: 50px;
+}
+.sl-info a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px 20px 10px;
+  border: 2px solid white;
+  box-shadow: 3px 3px 3px black;
+  text-shadow: 3px 3px 3px black;
+ 
+
+
+}
+
+.sl-info a:hover{
+
+  text-shadow: 0 0 0;
+  color: black;
+  background-color: white;
+
+}
+
+
+/*----- circles-----*/
+#slider-show{
+
+  margin:auto;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+}
+
+#sl-circles{
+
+  margin: auto;
+  height: 40px;
+  display: table;
+
+}
+
+#sl-circles li{
+  display: block;
+  background-color: rgb(0, 0, 0.5);
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top:5px;
+  float: left;
+
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+
+}
+
+##sl-circles a{
+
+  width: 17px;
+  height: 17px;
+  background-color: white;
+  display: block;
+  margin-top: 2px;
+  margin-left: 2px;
+
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+}
+
+
+/*goo, now we need to do the javascript part, the design is good ;)*/
+

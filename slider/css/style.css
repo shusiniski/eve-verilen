@@ -1,0 +1,29 @@
+.slider-main{
+  width:300%
+}
+
+.slide{
+	width:270px;
+	height:200px;
+	background-color:  gray;
+	border:1px solid orange;
+	float:left;
+	margin:10px;
+
+}
+
+.icons{
+	text-align:center;
+	margin-top: 50px;
+	
+
+
+
+}
+
+.icons span{
+	cursor: pointer;
+	font-size: 30px;
+	color: orange;
+}
+
